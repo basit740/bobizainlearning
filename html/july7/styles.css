@@ -1,0 +1,31 @@
+body {
+	color: red;
+	background-color: gray;
+}
+h2 {
+	color: green;
+}
+p,
+div {
+	color: blue;
+}
+
+.common {
+	color: yellow;
+	font-family: verdana;
+	border: 1px dotted black;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 65%;
+	border-radius: 10px;
+}
+.common:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	font-size: 40px;
+}
