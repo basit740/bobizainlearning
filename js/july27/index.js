@@ -1,4 +1,4 @@
-function testAnd(num) {
+ /*function testAnd(num) {
 	if (num > 5 && num < 10) {
 		return 'Yes';
 	}
@@ -6,21 +6,22 @@ function testAnd(num) {
 }
 
 const result = testAnd(4);
-console.log(result);
+console.log(result);*/
 
 ////////////////////////// Assignmment for AND operator   //////////////////////////
 
 function testLogicalAnd(val) {
 	// Only change code below this line
 
-	if (val) {
-		if (val) {
+	if (val <= 50 && val >= 25 ) {
+		
 			return 'Yes';
-		}
+		
 	}
 
 	// Only change code above this line
 	return 'No';
 }
 
-testLogicalAnd(10);
+ let result = testLogicalAnd(25);
+ console.log(result);
